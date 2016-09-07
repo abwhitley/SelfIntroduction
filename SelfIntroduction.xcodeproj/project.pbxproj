@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E94B98291D7FB3770029B9FC /* MadLibViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94B98281D7FB3770029B9FC /* MadLibViewerController.swift */; };
 		E9AF4E651D7F479F007E1D14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF4E641D7F479F007E1D14 /* AppDelegate.swift */; };
-		E9AF4E671D7F479F007E1D14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF4E661D7F479F007E1D14 /* ViewController.swift */; };
+		E9AF4E671D7F479F007E1D14 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF4E661D7F479F007E1D14 /* FirstViewController.swift */; };
 		E9AF4E6A1D7F479F007E1D14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AF4E681D7F479F007E1D14 /* Main.storyboard */; };
 		E9AF4E6C1D7F479F007E1D14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AF4E6B1D7F479F007E1D14 /* Assets.xcassets */; };
 		E9AF4E6F1D7F479F007E1D14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AF4E6D1D7F479F007E1D14 /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E94B98281D7FB3770029B9FC /* MadLibViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MadLibViewerController.swift; path = ../MadLibViewerController.swift; sourceTree = "<group>"; };
 		E9AF4E611D7F479F007E1D14 /* SelfIntroduction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfIntroduction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AF4E641D7F479F007E1D14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9AF4E661D7F479F007E1D14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9AF4E661D7F479F007E1D14 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		E9AF4E691D7F479F007E1D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9AF4E6B1D7F479F007E1D14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9AF4E6E1D7F479F007E1D14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				E9AF4E641D7F479F007E1D14 /* AppDelegate.swift */,
-				E9AF4E661D7F479F007E1D14 /* ViewController.swift */,
+				E94B98281D7FB3770029B9FC /* MadLibViewerController.swift */,
+				E9AF4E661D7F479F007E1D14 /* FirstViewController.swift */,
 				E9AF4E681D7F479F007E1D14 /* Main.storyboard */,
 				E9AF4E6B1D7F479F007E1D14 /* Assets.xcassets */,
 				E9AF4E6D1D7F479F007E1D14 /* LaunchScreen.storyboard */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9AF4E671D7F479F007E1D14 /* ViewController.swift in Sources */,
+				E9AF4E671D7F479F007E1D14 /* FirstViewController.swift in Sources */,
 				E9AF4E651D7F479F007E1D14 /* AppDelegate.swift in Sources */,
+				E94B98291D7FB3770029B9FC /* MadLibViewerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				E9AF4E8B1D7F479F007E1D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9AF4E8C1D7F479F007E1D14 /* Build configuration list for PBXNativeTarget "SelfIntroductionTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				E9AF4E8E1D7F479F007E1D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9AF4E8F1D7F479F007E1D14 /* Build configuration list for PBXNativeTarget "SelfIntroductionUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				E9AF4E911D7F479F007E1D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
